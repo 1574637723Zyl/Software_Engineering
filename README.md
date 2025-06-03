@@ -14,10 +14,7 @@ Our improvement method only made two basic modifications to TD3_BC.(1) The inter
 ├── run_experiments.sh     #  Shell script for running batch experiments  
 ├── results/               #  Folder to store experimental results  
 ```
-TD3+BC is a simple approach to offline RL where only two changes are made to TD3: (1) a weighted behavior cloning loss is added to the policy update and (2) the states are normalized. Unlike competing methods there are no changes to architecture or underlying hyperparameters. The paper can be found [here](https://arxiv.org/abs/2106.06860).
 
-### Usage
-Paper results were collected with [MuJoCo 1.50](http://www.mujoco.org/) (and [mujoco-py 1.50.1.1](https://github.com/openai/mujoco-py)) in [OpenAI gym 0.17.0](https://github.com/openai/gym) with
  # How to Run
 The paper results can be reproduced by running:
 ```Add commentMore actions

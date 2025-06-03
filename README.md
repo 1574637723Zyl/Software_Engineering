@@ -29,4 +29,4 @@ We explain some key flags below:
 --seed:indicates the current seed to facilitate subsequent reproduction
 
 # Dataset
-After our code runs, it will automatically download the corresponding dataset to the directory /.d4rl/datasets/. Of course, you can also download the data from the website [data](http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco/), and then create a directory /.d4rl/datasets/ to store the dataset. the [D4RL datasets](https://github.com/rail-berkeley/d4rl). Networks are trained using [PyTorch 1.4.0](https://github.com/pytorch/pytorch) and Python 3.6.
+After our code runs, it will automatically download the corresponding dataset to the directory /.d4rl/datasets/. Of course, you can also download the data from the website [data](http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco/), and then create a directory /.d4rl/datasets/ to store the dataset. 

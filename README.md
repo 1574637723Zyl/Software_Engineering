@@ -5,7 +5,15 @@ Our improvement method only made two basic modifications to TD3_BC.(1) The inter
  We summarize the benchmark overview below. We provide two metrics for evaluating the performance of the agent, return and the normalized score, which gives
 
  # Code Structure
- 
+ ```
+ RTD3_BC-main/
+│
+├── RTD3_BC.py             #  Main implementation of the RTD3_BC algorithm  
+├── main.py                #  Entry script for training and running experiments  
+├── test.py                #  Script for evaluation or testing purposes  
+├── run_experiments.sh     #  Shell script for running batch experiments  
+├── results/               #  Folder to store experimental results  
+```
 
  # How to Run
 ```
@@ -13,5 +21,7 @@ python main.py --env walker2d-medium-v0 --seed 1
 ```
 
 We explain some key flags below:
+
 --env:is used to specify what the running environment is.
+
 --seed:indicates the current seed to facilitate subsequent reproduction

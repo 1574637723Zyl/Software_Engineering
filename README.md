@@ -6,9 +6,9 @@ Our improvement method only made two basic modifications to TD3_BC.(1) The inter
 
 # Code StructureAdd commentMore actions
  ```
- RTD3_BC-main/
+ TD3_BC-main/
 │
-├── RTD3_BC.py             #  Main implementation of the RTD3_BC algorithm  
+├── TD3_BC.py             #  Main implementation of the RTD3_BC algorithm  
 ├── main.py                #  Entry script for training and running experiments  
 ├── test.py                #  Script for evaluation or testing purposes  
 ├── run_experiments.sh     #  Shell script for running batch experiments  

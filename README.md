@@ -25,3 +25,5 @@ We explain some key flags below:
 --env:is used to specify what the running environment is.
 
 --seed:indicates the current seed to facilitate subsequent reproduction
+# Dataset
+Our code will automatically download the corresponding datasets to the directory /.d4rl/datasets/ before running. Of course, you can also download the data from the website[ www.](http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco/), and then create a directory /.d4rl/datasets/ to store the datasets.
